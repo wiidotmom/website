@@ -24,18 +24,14 @@ export default function Home() {
 			</p>
 			<p>
 				You can find me at{' '}
-				<a href="https://github.com/malloryhayr" target="_blank">
-					malloryhayr
+				<a href="https://github.com/wiidotmom" target="_blank">
+					wiidotmom
 				</a>{' '}
 				on GitHub,{' '}
-				<a href="https://twitter.com/@_iGalaxyYT" target="_blank">
-					@_iGalaxyYT
+				<a href="https://bsky.app/profile/wii.mom" target="_blank">
+					@wii.mom
 				</a>{' '}
-				on Twitter,{' '}
-				<a href="https://discord.gg/9taRw3PyKn" target="_blank">
-					@igalaxy
-				</a>{' '}
-				on Discord, and{' '}
+				on Bluesky, @igalaxy on Discord, and{' '}
 				<a href="https://farlands.cafe/@igalaxy" target="_blank" rel="me">
 					@igalaxy@farlands.cafe
 				</a>{' '}

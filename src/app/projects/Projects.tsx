@@ -11,7 +11,7 @@ export interface GitHubPinnedRepo {
 async function getData() {
 	const data: GitHubPinnedRepo[] = await (
 		await fetch(
-			'https://gh-pinned-repos-tsj7ta5xfhep.deno.dev/?username=malloryhayr',
+			'https://gh-pinned-repos-tsj7ta5xfhep.deno.dev/?username=wiidotmom',
 			{
 				next: { revalidate: 10 },
 			}
@@ -50,7 +50,7 @@ function ProjectsFooter() {
 		>
 			Fetched from{' '}
 			<a
-				href={`https://github.com/malloryhayr`}
+				href={`https://github.com/wiidotmom`}
 				target="_blank"
 				style={{ color: '#ab48ab' }}
 				className="external"

@@ -37,9 +37,10 @@ export default function Data() {
 				</Suspense>
 			</p>
 			<p>
-				<Suspense fallback={<MusicDetailedLoading />}>
+				<MusicDetailedLoading />
+				{/* <Suspense fallback={<MusicDetailedLoading />}>
 					<MusicDetailed />
-				</Suspense>
+				</Suspense> */}
 			</p>
 			<p>
 				<Suspense fallback={<GamesDetailedLoading />}>
