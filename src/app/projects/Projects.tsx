@@ -103,7 +103,7 @@ function ProjectCard({
 		''
 	);
 
-	if (repo.owner == 'iGalaxyYT' && repo.repo == 'website')
+	if (repo.owner == 'wiidotmom' && repo.repo == 'website')
 		description += " (You're looking at it!)";
 
 	if (EMOJI_OVERRIDES[`${repo.owner}/${repo.repo}`])
@@ -132,7 +132,7 @@ function ProjectCard({
 					}}
 				>
 					{emoji != 'undefined' ? `${emoji}` : ''}{' '}
-					{repo.owner != 'iGalaxyYT' ? `${repo.owner}/` : ''}
+					{repo.owner != 'wiidotmom' ? `${repo.owner}/` : ''}
 					{repo.repo}
 				</strong>
 				<p>{repo.stars}★</p>
